@@ -1,13 +1,17 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png" />
+    <DataBinding></DataBinding>
   </div>
 </template>
 
 <script>
+import DataBinding from "@/views/DataBinding.vue";
 export default {
   name: "App",
-  components: {},
+  components: {
+    DataBinding,
+  },
 };
 </script>
 
